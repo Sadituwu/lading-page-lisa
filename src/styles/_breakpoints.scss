@@ -1,0 +1,11 @@
+// Breakpoints del diseño original (max-width)
+$bp-xl: 1680px;
+$bp-lg: 1180px;
+$bp-md: 900px;
+$bp-sm: 540px;
+
+@mixin below($bp) {
+  @media (max-width: $bp) {
+    @content;
+  }
+}
