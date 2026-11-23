@@ -7,6 +7,7 @@ import walkerImg from '@/assets/images/walker.webp'
 import pathWomanImg from '@/assets/images/path-woman.webp'
 import sketchImg from '@/assets/images/sketch.webp'
 import handsImg from '@/assets/images/hands.webp'
+import avatarImg from '@/assets/images/avatar.webp'
 
 // ⚠️ Estas URLs de lh3.googleusercontent.com/aida/ exigen iniciar sesión en Google:
 // un visitante normal verá la imagen rota. Hay que descargarlas (con la sesión
@@ -16,7 +17,7 @@ import handsImg from '@/assets/images/hands.webp'
 const GUC = 'https://lh3.googleusercontent.com/aida/'
 
 export const images = {
-  avatar: GUC + 'ALJJyrAwDB3dWyoRoHptBazzO3egN7lM7zzxUI8IozQis0WMAIxvTQ2PBisumNlR5FakY9tMkFru_fOneP6xE6aq9AwzYrVVnJ6qlITTqckzLeQVebtcMRblIOGwt2T-DauTVmv5iPDuYxbnTYLSIQj0EuFhNC7yN__6Tl4NeIMKgH-1AF0IkCqCVzNi5BpItui5Wfo3rsoEiichR2Gco2cewSa0UPrQuycufNlC_tMVqIqI6i_UifTXDMDz7BY',
+  avatar: avatarImg,
   aiBg: GUC + 'ALJJyrB7p2qznYZEqWQfxPUUKy7Sn36umEi971m9HxBN4GbCe4ezjZViIxVUumhsJ6g88vfAiiQEegnP53gipP5eT4gYy6695Xa_Gr8KsxR-xYHHmbUtkjO0wcwS74czC3dNxD4imoC0P8LH0cQZ5WRBiHNtp-wacn83srkw5BtLN9wc0w2hHXjpgA0t-Kw_tVqeDSOFAkAg_72GNbAcTS039PffU0Yor8BD6ziUgDg4EMHArnBzohupJy56Dcuz',
   pathChild: GUC + 'ALJJyrAQkduIjAmceeqGfI_PQfzyda2KRzY2eee-LhVDs5JeSeF1l9OOjGO3H6PNAk8K6PnmNUJLDE7g-gjjD5NuR3tScobKg2gTo5hqbfSBKx_lVYLUeBYxlFN0uNPTCZBg2BBOUiIfvD2wzpJJ8x5WOnM--2HZmCuvh6JS0uoFeVjNo0y8mcV_xyhFPB12s813RP_imz1FEuEqg-YhZpY2MWZ49OxrxM_6X5f6l88oGDwIXiU38ao0VaFnappL_VNB3Q',
   pathPhoto: GUC + 'ALJJyrCca7TzjyFiH1oQkH_CfYRdKcRJfJ_jhB5P1zbjRO6-fPRGUHD2wrlK7QIBDhZGnVqxDFpLqPW2m9-PN_kOqMbtT2Zm68l1n0uCISiQtYsUdZ89vTlEmb7yyv8WANDIwyqO21T87HN7RaO42nrSFoxwwWvVKrKTbHj94t8pJKZ7tXtwHryvp7-P9rUDHaX4I1RZvDcrKyTfHTtSLk3iFjV33w026133fAQH4HLRa0jb0lMdHlAlxoBkow',
