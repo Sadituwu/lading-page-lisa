@@ -3,6 +3,8 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
+  // GitHub Pages sirve el sitio en /lading-page-lisa/
+  base: '/lading-page-lisa/',
   plugins: [vue()],
   resolve: {
     alias: {

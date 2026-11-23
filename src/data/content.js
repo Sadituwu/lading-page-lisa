@@ -33,7 +33,7 @@ export const images = {
 export const navSections = ['about', 'approach', 'portfolio', 'contacts']
 
 // TODO: poner aquí el PDF real del currículum (archivo en /public)
-export const resumeUrl = '/resume.pdf'
+export const resumeUrl = `${import.meta.env.BASE_URL}resume.pdf`
 
 /**
  * Proyectos del portafolio — PROVISIONALES.
